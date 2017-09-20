@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">DOMOPHONE</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="copy_rights">© 2012-2016 AC SOFTWARE SP. Z O.O. GPLv2</string>
+    <string name="status_connected">متصل</string>
+    <string name="status_connecting">توصيل...</string>
+    <string name="status_invalid_key">مفتاح الترخيص غير صالح</string>
+    <string name="status_noconnection">لا يوجد اتصال</string>
+    <string name="status_compat_error">خطأ التوافق</string>
+    <string name="app_version">الإصدار 1.8</string>
+    <string name="project_homepage">www.domophone.eu</string>
+    <string name="mnf_city">48-370 Paczków</string>
+    <string name="mnf_street">st. Armii Krajowej 33</string>
+    <string name="mfr_country">بولندا</string>
+    <string name="mfr_homepage">www.acsoftware.pl</string>
+    <string name="status_opening">فتح...</string>
+    <string name="status_waiting">انتظار...</string>
+    <string name="dev_ip_address">عنوان الانترنت بروتوكول للاتصال الداخلى</string>
+    <string name="dev_ip">IP</string>
+    <string name="auth_key">مفتاح الترخيص</string>
+    <string name="key">مفتاح</string>
+    <string name="gateway_opening">فتح البوابة</string>
+    <string name="audiovideo_started">بدأ الاتصال الصوت \الفيديو</string>
+    <string name="audiovideo_finished">انتهاء الاتصال الصوت \ الفيديو</string>
+    <string name="gate_opening_closing">فتح / إغلاق البوابة</string>    
+    <string name="calling">استدعاء</string>    
+    <string name="locked_by">مغلق بواسطة:</string>
+    <string name="notify_sound">صوت الإشعار</string>
+    <string name="push_register_error">خطأ في حالة تسجيل دفع الإشعار</string>
+    <string name="mic_gain_title">مستوى الميكروفون</string>
+    <string name="playback_gain_title">Speaker gain</string>
+    <string name="serial_key_summary"></string>
+    <string name="serial_key">الرقم المسلسل</string>  
+    <string name="bg_mode">صيغة الخلفية</string>
+    <string name="system_sound">صوت النظام</string>
+    <string name="firmware_warning">Please update domophone firmware!</string>
+    <string name="proxy_warning">Warning. DOMOPHONE is not connected to the internet!</string>   
+    <string name="silent_mode">Silent</string> 
+    <string name="speaker">Speaker</string>
+</resources>

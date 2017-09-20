@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <EditTextPreference
+     android:key="pref_ip"
+     android:summary="@string/dev_ip_address"
+     android:title="@string/dev_ip" />
+  
+  <EditTextPreference
+     android:key="pref_authkey"
+     android:summary="@string/auth_key"
+     android:title="@string/key" />
+  
+   <EditTextPreference
+     android:key="pref_serialkey"
+     android:summary="@string/serial_key_summary"
+     android:title="@string/serial_key"
+     android:defaultValue="AUTO" />
+   
+  <com.acsoftware.android.domophone.SliderPreference
+        android:defaultValue="1"
+        android:key="mic_gain"
+        android:title="@string/mic_gain_title" />
+
+    <com.acsoftware.android.domophone.SliderPreference
+        android:defaultValue="2"
+        android:key="playback_gain"
+        android:title="@string/playback_gain_title" />
+  
+  <ListPreference 
+        android:key="notify_sound"
+        android:defaultValue="10" 
+        android:entries="@array/notifySound"
+        android:entryValues="@array/notifySound_values"
+        android:title="@string/notify_sound"
+    />
+  
+
+   <RingtonePreference android:showDefault="true"
+     android:key="notify_system_sound" android:title="@string/system_sound"
+     android:ringtoneType="notification">
+  </RingtonePreference>
+ 
+   <CheckBoxPreference
+    android:key="bg_mode"
+    android:title="@string/bg_mode"
+    android:summary=""
+    android:defaultValue="true" />
+  
+   <CheckBoxPreference
+    android:key="silent_mode"
+    android:title="@string/silent_mode"
+    android:summary=""
+    android:defaultValue="false" />
+   
+      <CheckBoxPreference
+    android:key="speaker_on"
+    android:title="@string/speaker"
+    android:summary=""
+    android:defaultValue="true" />
+</PreferenceScreen>
