@@ -1,2 +1,0 @@
-Pozmieniac odniesienia do klas w linphone-sdk
-grep -R "org/linphone" *
