@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notifySound">
+        <item name="1">DOMOPHONE 1</item>
+        <item name="2">DOMOPHONE 2</item>
+        <item name="3">DOMOPHONE 3</item>
+        <item name="4">DOMOPHONE 4</item>
+        <item name="5">DOMOPHONE 5</item>
+        <item name="6">DOMOPHONE 6</item>
+        <item name="7">DOMOPHONE 7</item>
+        <item name="8">DOMOPHONE 8</item>
+        <item name="9">DOMOPHONE 9</item>
+        <item name="10">DOMOPHONE 10</item>
+        <item name="11">DOMOPHONE 11</item>
+        <item name="12">DOMOPHONE 12</item> 
+        <item name="13">DOMOPHONE 13</item>
+        <item name="14">DOMOPHONE 14</item>
+        <item name="15">DOMOPHONE 15</item>
+        <item name="16">DOMOPHONE 16</item>
+        <item name="17">DOMOPHONE 17</item>
+        <item name="18">DOMOPHONE 18</item>
+        <item name="0">System sound</item>
+    </string-array>
+    
+    <string-array name="notifySound_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>       
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>  
+        <item name="9">9</item>
+        <item name="10">10</item>   
+        <item name="11">11</item>
+        <item name="12">12</item>
+        <item name="13">13</item>
+        <item name="14">14</item>
+        <item name="15">15</item>  
+        <item name="16">16</item>
+        <item name="17">17</item>    
+        <item name="18">18</item>
+        <item name="0">0</item>
+    </string-array>
+     
+</resources>

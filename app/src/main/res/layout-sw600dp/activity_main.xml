@@ -20,10 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
-        android:scaleType="fitXY"
-        android:background="@drawable/bg2" />
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg2"
+        android:scaleType="fitXY" />
     
     <TextView
         android:id="@+id/textView1"
@@ -33,21 +33,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="14dp"
-        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="80dp"
         android:text="@string/status_noconnection"
         android:textColor="@color/status_text_color"
-        android:textSize="14dp" />
+        android:textSize="20dp" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleSmall"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="20dp"/>
+        android:minHeight="45dp" 
+        android:maxHeight="45dp"
+        android:minWidth="45dp" 
+        android:maxWidth="45dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="15dp" />
 
     <Button
         android:id="@+id/infoBtn1"
@@ -67,7 +71,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="12dp"
-        android:layout_marginRight="45dp"
+        android:layout_marginRight="60dp"
         android:background="@drawable/settings"
         android:visibility="visible" />
 
@@ -91,12 +95,12 @@
         android:src="@drawable/error" />
 
      <Button
-        android:id="@+id/openBtn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:visibility="invisible" 
-        android:background="@drawable/gateway_big_g" />
+         android:id="@+id/openBtn1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:background="@drawable/gateway_big_g"
+         android:visibility="invisible" />
       
 </RelativeLayout>
